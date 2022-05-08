@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth"
+    app:startDestination="@id/authLoginFragment">
+
+    <fragment
+        android:id="@+id/authLoginFragment"
+        android:name="com.example.abrbarproject.view.AuthLoginFragment"
+        android:label="fragment_auth_login"
+        tools:layout="@layout/fragment_auth_login" >
+        <action
+            android:id="@+id/action_authLoginFragment_to_validateAuthFragment"
+            app:destination="@id/validateAuthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/validateAuthFragment"
+        android:name="com.example.abrbarproject.ValidateAuthFragment"
+        android:label="fragment_validate_auth"
+        tools:layout="@layout/fragment_validate_auth" >
+        <action
+            android:id="@+id/action_validateAuthFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.abrbarproject.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+</navigation>

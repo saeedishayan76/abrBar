@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AbrBarProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Login">Login</string>
+    <string name="insert_number">insert phoneNumber</string>
+    <string name="insert_code_here">insert code here</string>
+    <string name="validate">Validate</string>
+    <string name="tv_validate_code">here is validate code fragment insert your code here</string>
+    <string name="wellcome">Wellcome</string>
+</resources>
