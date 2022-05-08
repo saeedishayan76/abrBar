@@ -1,4 +1,4 @@
-package com.example.abrbarproject
+package com.example.abrbarproject.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
+import com.example.abrbarproject.R
 import com.example.abrbarproject.databinding.FragmentValidateAuthBinding
 import com.example.abrbarproject.viewModel.AuthViewModel
 import com.example.abrbarproject.vo.Resource

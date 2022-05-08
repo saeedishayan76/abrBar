@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/validateAuthFragment"
-        android:name="com.example.abrbarproject.ValidateAuthFragment"
+        android:name="com.example.abrbarproject.view.ValidateAuthFragment"
         android:label="fragment_validate_auth"
         tools:layout="@layout/fragment_validate_auth" >
         <action
